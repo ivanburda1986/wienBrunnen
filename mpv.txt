@@ -1,0 +1,4 @@
+-get an simple array with all brunnen in vienna (name, baujahr, kunstler, location)
+-show the brunnen on the google map
+-clicking any of them will show a streetview and some additional information
+
