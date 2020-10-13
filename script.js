@@ -32,24 +32,25 @@ function focusLocation(location, zoomLevel){
   map.setZoom(map.getZoom() + zoomLevel);
 }
 
-//https://www.data.gv.at/katalog/dataset/3ff63cf5-8d04-4be5-9449-96411ae9fc36
-//https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse
-//https://developers.google.com/places/web-service/details
-//https://developers.google.com/places/web-service/search
-//https://data.opendataportal.at/dataset
 
 
-//Geocoding
-//https://developers.google.com/maps/documentation/geocoding/overview
+//Get data
+function getBrunnenData(){
+  let brunnen = [];
+  fetch("brunnen-data.json")
+  .then(response => response.json())
+  .then(data => {
+    data.features.map((brunne)=>{
+      brunnen.push ({
+        name: brunne.properties.BASIS_NAME,
+        coordinates: brunne.geometry.coordinates,
+        buildIn: brunne.properties.BAUJAHR,
+        author: brunne.properties.KUENSTLER
+      })
+    })
+    return brunnen;
+  });
+  
+}
 
-//Reverse geocoding
-//https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse
 
-//Request photos
-//https://stackoverflow.com/questions/8462253/how-to-get-a-picture-of-a-place-from-google-maps-or-places-api
-
-//Distance
-//https://cloud.google.com/blog/products/maps-platform/how-calculate-distances-map-maps-javascript-api
-
-//Kunstwerke
-//https://www.data.gv.at/katalog/dataset/3ff63cf5-8d04-4be5-9449-96411ae9fc36
