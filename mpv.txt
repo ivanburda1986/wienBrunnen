@@ -25,3 +25,6 @@
 
 //Kunstwerke
 //https://www.data.gv.at/katalog/dataset/3ff63cf5-8d04-4be5-9449-96411ae9fc36
+
+//Marker clustering
+https://developers.google.com/maps/documentation/javascript/marker-clustering
