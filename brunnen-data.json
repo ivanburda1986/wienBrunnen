@@ -954,7 +954,7 @@
     "geometry_name": "SHAPE",
     "properties": {
       "OBJECTID": 2179483,
-      "BASIS_NAME": null,
+      "BASIS_NAME": "Unknown",
       "BASIS_TYP": "Monumentalbrunnen",
       "BETRIEB": "Wiener Wasser",
       "VERWALTUNG": null,
@@ -1230,7 +1230,7 @@
     "geometry_name": "SHAPE",
     "properties": {
       "OBJECTID": 2179495,
-      "BASIS_NAME": null,
+      "BASIS_NAME": "Unknown",
       "BASIS_TYP": "Monumentalbrunnen",
       "BETRIEB": "Wiener Wasser",
       "VERWALTUNG": null,

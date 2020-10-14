@@ -28,3 +28,11 @@
 
 //Marker clustering
 https://developers.google.com/maps/documentation/javascript/marker-clustering
+
+//Info windows
+https://developers.google.com/maps/documentation/javascript/infowindows
+
+
+//Markers styling
+https://developers.google.com/maps/documentation/javascript/reference/marker#MarkerLabel.fontFamily
+https://developers.google.com/maps/documentation/javascript/reference#MarkerOptions
