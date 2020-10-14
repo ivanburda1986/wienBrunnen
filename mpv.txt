@@ -28,6 +28,7 @@
 
 //Marker clustering
 https://developers.google.com/maps/documentation/javascript/marker-clustering
+https://cloud.google.com/blog/products/maps-platform/how-cluster-map-markers
 
 //Info windows
 https://developers.google.com/maps/documentation/javascript/infowindows
