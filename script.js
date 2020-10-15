@@ -19,10 +19,13 @@ function initMap() {
     .then(data => {
       data.features.map((brunne)=>{
         brunnen.push ({
+          id: brunne.properties.OBJECTID,
           name: brunne.properties.BASIS_NAME,
           coordinates: {lat: brunne.geometry.coordinates[1], lng: brunne.geometry.coordinates[0]},
           buildIn: brunne.properties.BAUJAHR,
-          author: brunne.properties.KUENSTLER
+          author: brunne.properties.KUENSTLER,
+          description: brunne.properties.DESCRIPTION,
+          link: `<a href="${brunne.properties.LINK}", target="_blank">More info.</a>`
         })
       })
 
@@ -35,12 +38,36 @@ function initMap() {
   //Add a location marker onto the map
   function addMarkers(brunnen){
     let brunnenMarkers = [];
+    let infoWindows = [];
     brunnen.forEach(brunne =>{
      brunnenMarkers.push(new google.maps.Marker({position: brunne.coordinates, label: {text: brunne.name, fontWeight: "500"}, map: map}));
-    })
+     infoWindows.push(new google.maps.InfoWindow({content: `${brunne.description} ${brunne.link}`}));
+    });
+    console.log(infoWindows);
+    console.log(brunnenMarkers);
+    //Attach info windows
+    attachInfoWindows(brunnenMarkers, infoWindows);
     //Once the markers have been added request clustering them
     clusterMarkers(brunnenMarkers);
   }
+
+  //Attach info windows to markers
+  function attachInfoWindows(brunnenMarkers, infoWindows){
+    for(let i = 0; i<brunnenMarkers.length; i++){
+      brunnenMarkers[i].addListener('click', ()=>{
+        closeInfoWindows(infoWindows);
+        infoWindows[i].open(map, brunnenMarkers[i]);
+      });
+    }
+  }
+
+  //Close all open info windows when a new one gets clicked
+  function closeInfoWindows(infoWindows){
+    infoWindows.forEach(window =>{
+      window.close();
+    })
+  }
+
 
   //Cluster the markers
   function clusterMarkers(brunnenMarkers){

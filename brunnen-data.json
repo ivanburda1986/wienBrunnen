@@ -22,7 +22,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Alszauberbrunnen wurde vom Bildhauer Karl Philipp gestaltet und am 5. Juni 1932 feierlich enthüllt.[1] Sein Standort auf dem Elterleinplatz befindet sich direkt über dem eingewölbten Bachbett der namensgebenden Als. Die Figuren des Schrammel-Quartetts wurden während des Zweiten Weltkrieges, 1943, eingeschmolzen, 1981 von Heribert Rath (1924–2007) anhand von Gipsmodellen neu gegossen und 1982 von Stadtrat Helmut Zilk wiederenthüllt.",
+      "LINK": "https://de.wikipedia.org/wiki/Alszauberbrunnen"
     }
   }, {
     "type": "Feature",
@@ -45,7 +47,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Schubertbrunnen in Wien Der Schubertbrunnen ist ein denkmalgeschützter[1] Brunnen in der Liechtensteinstraße im 9. Wiener Gemeindebezirk Alsergrund. Der Schubertbrunnen mit einem niedrigen quadratischen Becken und der überlebensgroßen Marmorfigur eines lauschenden Mädchens wurde am 18. November 1928 enthüllt. Errichtet wurde er auf Veranlassung des Wiener Schubertbundes und der Bezirksvertretung Alsergrund von dem Bildhauer Theodor Stundl und dem Architekten Franz Matuschek.",
+      "LINK": "https://de.wikipedia.org/wiki/Schubertbrunnen"
     }
   }, {
     "type": "Feature",
@@ -68,7 +72,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Opernbrunnen, Marmorbrunnen rechts und links der Staatsoper, errichtet (1866-1869) von Eduard van der Nüll und August Sicard von Sicardsburg (Architektur) beziehungsweise Hanns Gasser (Skulpturen). Der linke Brunnen zeigt unter der bekrönenden Allegorie der Musik allegorische Gestalten der Freude, des Tanzes und des Leichtsinns, der rechte Brunnen unter der bekrönenden Lorelei allegorische Gestalten der Trauer, Liebe und Rache.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Opernbrunnen"
     }
   }, {
     "type": "Feature",
@@ -91,7 +97,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "09:00-22:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Keine info",
+      "LINK": ""
     }
   }, {
     "type": "Feature",
@@ -114,7 +122,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Brunnen Anfang des 20. Jahrhunderts 1562 wurde im Auftrag König Ferdinand I. die erste eigene Wasserzuleitung zur Hofburg errichtet. Das Wasser für die Siebenbrunner Hofwasserleitung wurde in sieben Brunnen am Siebenbrunnenfeld in Oberreinprechtsdorf (heute ein Bezirksteil von Margareten) gesammelt und in gusseisernen Rohren zu einem Reservoir unter der Augustinerbastei in Wien geleitet, von wo es wiederum in die Hofburg weitergeleitet wurde. Zur Erinnerung an die Hofwasserleitung, die Eingemeindung der ehemaligen Vorstädte zum 5. Bezirk und aus Anlass des 60. Geburtstags des Wiener Bürgermeisters Karl Lueger wurde 1904 der vom Bildhauer Richard Kauffungen geschaffene Siebenbrunnen enthüllt. Außerdem wurden im Bereich des ehemaligen Siebenbrunnenfeldes die Siebenbrunnenfeldgasse, die Siebenbrunnengasse und der Siebenbrunnenplatz benannt. 1999 folgte ein Umbau des Siebenbrunnenplatzes zur verkehrsberuhigten Zone (Fußgängerzone).",
+      "LINK": "https://de.wikipedia.org/wiki/Siebenbrunnen_(Wien)"
     }
   }, {
     "type": "Feature",
@@ -137,7 +147,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Wiener Wasserwelt, Denkzeichen von Osamu Nakajima Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -160,30 +172,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
-    }
-  }, {
-    "type": "Feature",
-    "id": "MONUMENTALBRUOGD.2179509",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [16.382619900983787, 48.20970611070409]
-    },
-    "geometry_name": "SHAPE",
-    "properties": {
-      "OBJECTID": 2179509,
-      "BASIS_NAME": "Ministerienbrunnen",
-      "BASIS_TYP": "Monumentalbrunnen",
-      "BETRIEB": "Wiener Wasser",
-      "VERWALTUNG": null,
-      "BAUJAHR": "1912",
-      "DENKMAL": null,
-      "KUENSTLER": "BAUMANN Ludwig",
-      "BETRIEB_VON": null,
-      "BETRIEB_BIS": null,
-      "AKTIV": null,
-      "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Ministerienbrunnen (1, Stubenring 1). Im Zuge der Errichtung des neuen Kriegsministeriums (heute Regierungsgebäude) beziehungsweise der Versetzung des Radetzkydenkmals vom Platz Am Hof hierher wurden von Ludwig Baumann 1909-1913, zu beiden Seiten symmetrisch angeordnet, Brunnen (Stufensockel, Kleeblattbecken, darin Vierkantsockel mit vier Tiermaskenspeiern, über korinthischem Kapitell gekrönter Doppeladler als Abschluss) errichtet und 1914 in die Obhut der Gemeinde Wien übernommen.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Ministerienbrunnen"
     }
   }, {
     "type": "Feature",
@@ -206,7 +197,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "1702 gelobte Leopold I., eine Säule zu Ehren des heiligen Josef zu errichten, wenn sein erstgeborener Sohn Joseph (I.) die Festung Landau einnähme und glücklich aus dem spanischen Erbfolgekrieg heimkehre. Da Leopold I. aber schon bald nach Josephs siegreicher Rückkehr starb, erfüllte Joseph das Gelübde seines Vaters. 1707 wurde das Denkmal nach Plänen von Johann Bernhard Fischer von Erlach auf dem Hohen Markt errichtet.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Verm%C3%A4hlungsbrunnen"
     }
   }, {
     "type": "Feature",
@@ -229,7 +222,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Wiener Wasserwelt, Denkzeichen von Osamu Nakajima Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -252,7 +247,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Brunnen aus Stein und Bronze",
+      "LINK": "https://de.wikipedia.org/wiki/Liste_der_Kunstwerke_im_%C3%B6ffentlichen_Raum_in_Wien/W%C3%A4hring#/media/Datei:Brunnen_am_Kutschkermarkt_W%C3%A4hringer_Str.jpg"
     }
   }, {
     "type": "Feature",
@@ -275,7 +272,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Andromedabrunnen im Innenhof des Alten Rathauses wurde 1741 von Georg Raphael Donner geschaffen. Er gilt als eines der letzten Hauptwerke des im selben Jahr verstorbenen Bildhauers. Der darüber liegende Balkon mit dem Schmiedeeisengitter stammt bereits aus dem Jahr 1725, auf ihm wurden damals die Verordnungen des Stadtrats verlesen.",
+      "LINK": "https://de.wikipedia.org/wiki/Andromedabrunnen"
     }
   }, {
     "type": "Feature",
@@ -298,7 +297,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Antonio Gabrielli, der im Auftrag der Stadt Wien die I. Wiener Hochquellenwasserleitung errichtete, verzichtete auf einen Teil des ihm zustehenden Geldes zu Gunsten eines repräsentativen Brunnens unter der Bedingung, dass dieser anlässlich der Eröffnung der Wasserleitung in Betrieb genommen werden sollte. Bei der Suche nach einem geeigneten und dem Anlass entsprechenden Standort wurde auch der neue Rathauspark auf seine Tauglichkeit überprüft.[1]",
+      "LINK": "https://de.wikipedia.org/wiki/Brunnen_im_Rathauspark"
     }
   }, {
     "type": "Feature",
@@ -321,7 +322,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "BAUWERKSDATENADRESSENKONSKRIPTIONSNUMMERN Art des Bauwerks Brunnen Jahr von 1919/1950 Jahr bis Andere Bezeichnung Frühere Bezeichnung Benannt nach Einlagezahl Architekt Carl Lahner, Florian Josephu-Drouot Personenbezug Siehe auch Ressource Felix Czeike: Historisches Lexikon Wien Export RDF-Export (Resource Description Framework) RDF Letzte Änderung am 3.06.2020 durch WIEN1.lanm09lue 0 / 0 122 mca. 1:8000© ViennaGIS Vollversion anzeigenVollversion anzeigen Kartenausschnitt aus Wien Kulturgut Labetrunkbrunnen (3, Am Heumarkt 2, Stadtpark), Skulptur einer Mutter (von Carl Lahner), die ihrem Kind den Labetrunk reicht (enthüllt 22. Mai 1909, 1945 zerstört, 1950 von Florian Josephu-Drouot neu errichtet); seitlich am Vierkantsockel zwei kleine Becken, die das aus Wasserspeiern strömende Wasser auffangen.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Labetrunkbrunnen"
     }
   }, {
     "type": "Feature",
@@ -344,7 +347,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Im Zuge der Errichtung der Kaiser-Ferdinands-Wasserleitung wurde Ende 1843 vor der Wiedner Paulanerkirche ein Bassin aufgestellt. Dieses wurde 1846 durch den Schutzengelbrunnen ersetzt. Nachdem während des Zweiten Weltkrieges der Erzherzog-Rainer-Brunnen auf dem nahen Rilkeplatz zerstört worden war und der Platz vor der Paulanerkirche mittlerweile aus verkehrstechnischen Gründen frei gemacht werden musste, wurde der Schutzengelbrunnen 1963 auf den Rilkeplatz versetzt.[1] Die Enthüllung des denkmalgeschützten Brunnens (Listeneintrag) an seinem neuen und aktuellen Standort erfolgte am 10. Dezember 1963.",
+      "LINK": "https://de.wikipedia.org/wiki/Schutzengelbrunnen"
     }
   }, {
     "type": "Feature",
@@ -367,7 +372,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Tilgner-Brunnen wurde 1902 zur Erinnerung an den Bildhauer Viktor Tilgner anhand eines aus seinem Nachlass stammenden Originalmodells errichtet und steht heute unter Denkmalschutz (Listeneintrag). Im Zentrum der Granit-Brunnenschale befindet sich ein Sockel mit der Inschrift „Zum Andenken Viktor Tilgners errichtet von der Gemeinde Wien im Jahre 1902“. Auf diesem Sockel steht eine Bronzeskulptur mit zwei Putten, die Wasserspeier in Form eines Fisches bzw. einer Gans halten. Am Rand des Brunnenbeckens befinden sich vier Bronzeplastiken, die wasserspeiende Frösche darstellen.",
+      "LINK": "https://de.wikipedia.org/wiki/Tilgner-Brunnen"
     }
   }, {
     "type": "Feature",
@@ -390,7 +397,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Anfangs der 90-er Jahre beschloss die Stadtgemeinde Zwettl, den Hauptplatz neu zu gestalten. Zielvorstellung war hierbei, der Stadt wieder einen attraktiven Mittelpunkt zu geben und damit die Tradition des alten Zwettler Hauptplatzes für Gegenwart und Zukunft zu erhalten.",
+      "LINK": "https://www.zwettl.gv.at/Der_Hundertwasserbrunnen_am_Hauptplatz"
     }
   }, {
     "type": "Feature",
@@ -413,7 +422,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Richard-Kralik-Platz (18, Währing; 19, Oberdöbling), benannt (27. Dezember 1934 Bürgermeister) nach Richard Kralik; vorher (bis 6. November 1919) Carl-Ludwig-Platz beziehungsweise (bis 1934) Weimarer Platz.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Richard-Kralik-Platz"
     }
   }, {
     "type": "Feature",
@@ -436,7 +447,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Tiertränkebrunnen ist ein denkmalgeschützter (Listeneintrag) Brunnen am Johanna-Dohnal-Platz an der Gumpendorfer Straße nahe der Rahlstiege mit dem Gänsemädchenbrunnen im 6. Wiener Gemeindebezirk Mariahilf. Der von Adolf Stöckl gemeinsam mit dem Bildhauer Josef Thorak[1] geschaffene Tiertränkebrunnen wurde von der Opernsängerin Hedwig Francillo-Kauffmann gemeinsam mit anderen Tierfreunden gestiftet und am 22. Juli 1916 enthüllt. Er zeigt die Sängerin an einen Pferdekopf gelehnt.[2] Der ursprüngliche Aufstellungsort befand sich bei der Wiener Secession. 1968 wurde er an seinen gegenwärtigen Standort auf dem sogenannten Papiermacherplatzl übersiedelt.",
+      "LINK": "https://de.wikipedia.org/wiki/Tiertr%C3%A4nkebrunnen"
     }
   }, {
     "type": "Feature",
@@ -459,7 +472,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Säulenbrunnen befindet sich in der Wiedner Hauptstraße 52 im 4. Wiener Gemeindebezirk Wieden. In der Mitte des Steinbrunnens befindet sich eine kugelbekrönte toskanische Säule.",
+      "LINK": "https://www.austriasites.com/vienna/bezirk04_saeulenbrunnen.htm"
     }
   }, {
     "type": "Feature",
@@ -482,7 +497,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-24:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Nach dem Abbruch einiger Häuser bei der Kirche Maria am Gestade und einem Architektenwettbewerb baute der Architekt Hubert Matuschek 1937 den Stiegenaufgang vom Tiefen Graben zur Kirche. Der Hannakenbrunnen wurde als Bestandteil dieser Stiegenanlage auf dem kleinen Platz an deren unterem Ende vom Bildhauer Rudolf Schmidt errichtet. Die Enthüllung fand am 10. Dezember 1937 statt.",
+      "LINK": "https://de.wikipedia.org/wiki/Hannakenbrunnen"
     }
   }, {
     "type": "Feature",
@@ -505,7 +522,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Mosesbrunnen wurde 1798 in der Mitte des Franziskanerplatzes nach einem Entwurf von Johann Martin Fischer errichtet. In einem großen Brunnenbecken steht auf einem Sockel eine überlebensgroße Statue des Mose. Auf dem Sockel befinden sich eine Löwenmaske als Wasserspeier und ein Relief trinkender Israeliten. Die aus dem frühen 17. Jahrhundert stammende Brunnenschale stand ursprünglich im Haus Franziskanerplatz 6.",
+      "LINK": "https://de.wikipedia.org/wiki/Mosesbrunnen_(Wien)"
     }
   }, {
     "type": "Feature",
@@ -528,7 +547,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Schöpfer des 1886 hier aufgestellten Gänsemädchenbrunnens ist Anton Paul Wagner, der auch den Engelbrunnen auf der Wiedner Hauptstraße schuf. Ursprünglicher Aufstellungsort des Brunnens war ab 1866 der Geflügelmarkt auf der Brandstätte in der Inneren Stadt, von wo er 1874 entfernt und in einem Depot gelagert wurde. Ab 1879 befand er sich auf dem Platz vor der Mariahilfer Kirche an der Mariahilfer Straße, wurde aber 1886 wegen der Aufstellung des Haydn-Denkmals an seinen heutigen Standort verlegt.",
+      "LINK": "https://de.wikipedia.org/wiki/G%C3%A4nsem%C3%A4dchenbrunnen"
     }
   }, {
     "type": "Feature",
@@ -551,7 +572,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Wachsamkeitsbrunnen mit dem ursprünglichen Standort Alser Straße / Skodagasse wurde 1779 auf Kosten der niederösterreichischen Landesregierung von Johann Martin Fischer errichtet. Im Jahr 1937 wurde der Brunnen auf den Schlesingerplatz vor das dortige Bezirksamt für den 8. Bezirk übersiedelt. Seit dem Jahr 2004 wird der Wachsamkeitsbrunnen besonders attraktiv beleuchtet.",
+      "LINK": "https://de.wikipedia.org/wiki/Wachsamkeitsbrunnen"
     }
   }, {
     "type": "Feature",
@@ -574,7 +597,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Mozart-Brunnen, auch Zauberflötenbrunnen genannt, ist ein Brunnen auf dem Mozartplatz im 4. Wiener Gemeindebezirk Wieden. Der Brunnen wurde 1905 während der Amtszeit von Bürgermeister Karl Lueger errichtet. Der bereits im Jahr 1900 preisgekrönte Entwurf stammt vom Architekten Otto Schönthal, der ausführende Bildhauer war Carl Wollek.[1] Der Brunnen soll an die Uraufführung von Wolfgang Amadeus Mozarts Oper Die Zauberflöte erinnern, die 1791 im Freihaustheater auf der Wieden stattfand. Die Bronzegruppe zeigt Tamino und Pamina, die Hauptfiguren der Zauberflöte.",
+      "LINK": "https://de.wikipedia.org/wiki/Mozart-Brunnen_(Wien)"
     }
   }, {
     "type": "Feature",
@@ -597,7 +622,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Hauptfigur ist eine allegorische Darstellung der Austria, die auf einem Schiffsbug steht. Auf der vom Betrachter aus gesehenen rechten Seite des Schiffsbuges findet sich der Schriftzug WEYR 1895. Auf dem Brunnenbecken erhebt sich eine Felsarchitektur mit einer Darstellung des Meeresgottes Neptun, einem gestürzten Giganten und einem Seeungeheuer.",
+      "LINK": "https://de.wikipedia.org/wiki/Macht_zur_See"
     }
   }, {
     "type": "Feature",
@@ -620,7 +647,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Opernbrunnen, Marmorbrunnen rechts und links der Staatsoper, errichtet (1866-1869) von Eduard van der Nüll und August Sicard von Sicardsburg (Architektur) beziehungsweise Hanns Gasser (Skulpturen). Der linke Brunnen zeigt unter der bekrönenden Allegorie der Musik allegorische Gestalten der Freude, des Tanzes und des Leichtsinns, der rechte Brunnen unter der bekrönenden Lorelei allegorische Gestalten der Trauer, Liebe und Rache.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Opernbrunnen"
     }
   }, {
     "type": "Feature",
@@ -643,7 +672,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-24:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Magna-Mater-Brunnen (23., Mauer, Parkanlage gegenüber Speisinger Straße 258), flaches Achteckbecken mit vier gewundenen Schlangen als Wasserspeier, in der Mitte auf einem Vierkantsockel weibliche Kolossalfigur, von A. Stöckl (Architektur) und Anton Hanak (Skulptur), um 1930 entstanden und ursprünglich in der Kinderübernahmestelle (9) aufgestellt. 1964 wurde der Brunnen (im Zuge der Umgestaltung in das Julius-Tandler-Heim) in den Park bei der Maurer Pfarrkirche (Dr.-Adolf-Lorenz-Heim) transferiert.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Magna-Mater-Brunnen"
     }
   }, {
     "type": "Feature",
@@ -666,7 +697,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Mit der Errichtung des am 24. November 1836 eingeweihten Margaretenbrunnens wollte die damals noch selbständige Gemeinde Margareten ihre Dankbarkeit für die von Kaiser Franz I. seit 1829 gestattete Benützung der Siebenbrunner Hofwasserleitung ausdrücken. Bis zur Inbetriebnahme der Kaiser-Ferdinands-Wasserleitung im Jahr 1843 war der Brunnen die einzige öffentliche Wasserquelle in dieser Gegend. 1886 sollte er anlässlich der Umgestaltung des Margaretenplatzes abgetragen werden, wurde aber stattdessen 20 Meter nach Südwesten an seinen heutigen Standort versetzt. Dabei erhielt er einen neuen Unterbau und wurde von dem Bildhauer Wilhelm Sturm restauriert.",
+      "LINK": "https://de.wikipedia.org/wiki/Margaretenbrunnen"
     }
   }, {
     "type": "Feature",
@@ -689,7 +722,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "https://www.geschichtewiki.wien.gv.at/Sandleiten_(Wohnhausanlage)",
+      "LINK": "https://austria-forum.org/af/Bilder_und_Videos/Bilder_Wien/1160/3036"
     }
   }, {
     "type": "Feature",
@@ -712,7 +747,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Anlass für die Errichtung des Tuchmacherbrunnens vor dem Haus Tuchlauben 8 war das 30-jährige Bestehen der Wiener Wechselseitigen Versicherung (ursprünglich: Städtische Kaiser-Franz-Josef-Jubiläums-Lebens- und Rentenversicherungs-Anstalt), die hier ihre Zentrale hatte. Enthüllt wurde der Brunnen am 7. Juni 1928.",
+      "LINK": "https://de.wikipedia.org/wiki/Tuchmacherbrunnen_(Wien)"
     }
   }, {
     "type": "Feature",
@@ -735,7 +772,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Das Zentrum des Austriabrunnens ist eine Säule aus hartem, weißem Kaiserstein, die von einer Statue gekrönt ist. Dabei handelt es sich um die gekrönte Austria, das personifizierte Österreich, mit Speer und Schild in der Hand. Um die Säule stehen vier Allegorien der vier wichtigsten Flüsse des habsburgischen Reiches. Dabei handelt es sich um die Elbe, die Donau, die Weichsel und den Po, die jeweils in unterschiedliche Meere – die Nordsee, das Schwarze Meer, die Ostsee und Adria entwässern und so die zentrale Stellung des Habsburgerreichs in Europa symbolisieren sollen.",
+      "LINK": "https://de.wikipedia.org/wiki/Austriabrunnen"
     }
   }, {
     "type": "Feature",
@@ -758,7 +797,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-22:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Von der Währinger Straße zweigte seit 1808 eine Gasse ab. Hier hatte der Bildhauer und Maler Peter Strudel, oft auch Strudl geschrieben, am Rand einer Geländestufe ein Grundstück besessen und darauf 1690 den Strud(e)lhof errichten lassen, in dem er eine private Malerschule einrichtete. Sie wurde 1705 zur kaiserlichen Akademie erhoben und bis zu Strudels Tod 1714 betrieben.",
+      "LINK": "https://de.wikipedia.org/wiki/Strudlhofstiege"
     }
   }, {
     "type": "Feature",
@@ -781,7 +822,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "In einer Wandnische befindet sich ein geschwungenes Brunnenbecken. Darin erhebt sich eine Felsarchitektur, die gestürzte Giganten, eine Schlange sowie einen Adler trägt, darüber befindet sich auf einem Felsen eine männliche Aktfigur mit einem Schwert. Im Gegensatz zur Macht zur See findet sich hier kein Schriftzug mit Angaben zu Künstler oder Jahr der Enthüllung. Das Brunnenbecken ist aus rotem Granit aus dem schwedischen Uddevalla, für das Bodenpflaster wurde böhmischer Granit verwendet, Lindabrunner Konglomerat für die Felsen und Laaser Marmor für die Figuren. Von Juli 2001 bis Mai 2003 wurde eine Restaurierung durchgeführt. Für die Ergänzung der figuralen Elemente wurden neben historischen Fotografien die im Kellerdepot der Hofburg aufbewahrten Gipsmodelle als Vorlagen verwendet.[1]",
+      "LINK": "https://de.wikipedia.org/wiki/Macht_zu_Lande"
     }
   }, {
     "type": "Feature",
@@ -804,7 +847,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Leopoldbrunnen (2011) Der Leopoldsbrunnen (selten: Leopoldbrunnen) ist ein denkmalgeschütztes Objekt nahe der Innsbrucker Altstadt. Der vor dem Haus der Musik unweit vom Landestheater gegenüber der Hofburg am Rennweg gelegene Brunnen zeigt ein Reiterstandbild des Erzherzogs Leopolds V.(1586–1632), der von 1623 bis 1630 Landesfürst von Tirol war und dem Brunnen den Namen gab.",
+      "LINK": "https://de.wikipedia.org/wiki/Leopoldsbrunnen"
     }
   }, {
     "type": "Feature",
@@ -827,7 +872,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Am Standort des heutigen Augustinbrunnens befand sich im 17. Jahrhundert eine Pestgrube, in die der Bänkelsänger und Sackpfeifer Marx Augustin („Der liebe Augustin“) versehentlich geworfen wurde, aber aufgrund seines Dudelsackspiels schließlich gerettet werden konnte. 1861 wollte der Volkssänger Johann Fürst aus den Einnahmen eines geplanten „Unterhaltungsabends“ ein Standbild zu Ehren Marx Augustins errichten lassen, wozu es jedoch nicht kam. Am Strohplatzl, wie der heutige Augustinplatz früher genannt wurde, befand sich offenbar bereits im 19. Jahrhundert ein Brunnen.",
+      "LINK": "https://de.wikipedia.org/wiki/Augustinbrunnen"
     }
   }, {
     "type": "Feature",
@@ -850,7 +897,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Alszauberbrunnen wurde vom Bildhauer Karl Philipp gestaltet und am 5. Juni 1932 feierlich enthüllt.[1] Sein Standort auf dem Elterleinplatz befindet sich direkt über dem eingewölbten Bachbett der namensgebenden Als. Die Figuren des Schrammel-Quartetts wurden während des Zweiten Weltkrieges, 1943, eingeschmolzen, 1981 von Heribert Rath (1924–2007) anhand von Gipsmodellen neu gegossen und 1982 von Stadtrat Helmut Zilk wiederenthüllt.",
+      "LINK": "https://de.wikipedia.org/wiki/Alszauberbrunnen"
     }
   }, {
     "type": "Feature",
@@ -873,7 +922,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "OBJEKTDATENVERWEISE Art des Objekts Verkehrsfläche Jahr von Jahr bis Name seit Andere Bezeichnung Frühere Bezeichnung Benannt nach Georg von Zimmermann Bezirk 17 Lage Hernals; Währing Verkehr Prominente Bewohner Besondere Bauwerke Siehe auch Ressource Felix Czeike: Historisches Lexikon Wien Export RDF-Export (Resource Description Framework) RDF Letzte Änderung am& 25.10.2018 durch WIEN1.lanm08jan 0 / 0 61 mca. 1:4000© ViennaGIS Vollversion anzeigenVollversion anzeigen Kartenausschnitt aus Wien Kulturgut Zimmermanngasse (17, Hernals; 18, Währing; seit 1905: 9), angelegt auf einem neu entstandenen Terrain zwischen Alser Straße und Kinderspitalgasse, benannt nach Georg (14. September 1882 Ritter von) Zimmermann (* 9. März 1827, † 12. November 1896), Vizepräsident der Finanzlandesdirektion, Direktor des Zentral-Taxamts, Gemeinderat von Hernals, Hofrat, Ehrenbürger von Hernals, Wohltäter, Orden der Eisernen Krone III. Klasse (1882). Verlängerung (9. Juni 1899 Stadtrat) von Kinderspitalgasse bis Alser Straße.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Zimmermanngasse"
     }
   }, {
     "type": "Feature",
@@ -896,7 +947,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-22:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Arthaberbrunnen (10, Arthaberplatz). Zur Erinnerung an Rudolf von Arthaber (1795-1867) ließen seine Erben einen monumentalen, mit einer Uhr verzierten Brunnen errichten (Entwurf Architekt Theodor Bach, enthüllt 27. September 1906), den ein Reliefbild Arthabers (von Rudolf Schröer) schmückt. Nach dem Zweiten Weltkrieg verändert, jedoch 1989 bis auf das Reliefbild wiederhergestellt.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Arthaberbrunnen"
     }
   }, {
     "type": "Feature",
@@ -919,7 +972,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Trinkbrunnen mit Steinreliefs von Ferdinand Opitz an. 1948 entstand auf den Grundmauern des mittelalterlichen Turms nach einem Entwurf von Mario Petrucci ein Heimkehrer-Gedächtnismal.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Leopoldsberg"
     }
   }, {
     "type": "Feature",
@@ -942,30 +997,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
-    }
-  }, {
-    "type": "Feature",
-    "id": "MONUMENTALBRUOGD.2179483",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [16.381453385787427, 48.24680901667606]
-    },
-    "geometry_name": "SHAPE",
-    "properties": {
-      "OBJECTID": 2179483,
-      "BASIS_NAME": "Unknown",
-      "BASIS_TYP": "Monumentalbrunnen",
-      "BETRIEB": "Wiener Wasser",
-      "VERWALTUNG": null,
-      "BAUJAHR": null,
-      "DENKMAL": null,
-      "KUENSTLER": null,
-      "BETRIEB_VON": null,
-      "BETRIEB_BIS": null,
-      "AKTIV": null,
-      "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Wasserwellen-Lebens-Brunnen wurde vom Bildhauer Hans Muhr aus dem größten bekannten jemals gefundenen und in den chilenischen Anden abgebauten Lapislazuli-Monolithen gefertigt. Erstmals ausgestellt wurde dieser Brunnen im Österreich-Pavillon der Weltausstellung in Lissabon 1998. In der Gemeinderatssitzung vom 24. November 1999 wurden sowohl der Ankauf der als „Blaues Zeichen“ bezeichneten Skulptur (10 Millionen Schilling) als auch weitere 2 Millionen Schilling für die Baumaßnahmen in der Bruno-Kreisky-Gasse, die für die Aufstellung notwendig waren, neben dem Bundeskanzleramt genehmigt.[2] Die Gesamtkosten wurden zu zwei Dritteln von privaten Sponsoren und einem weiteren Drittel von der Stadt Wien getragen. Die Enthüllung des Wasserwellen-Lebens-Brunnens am 23. November 2000 nahmen Helmut Zilk und Peter Marboe vor.",
+      "LINK": "https://de.wikipedia.org/wiki/Wasserwellen-Lebens-Brunnen"
     }
   }, {
     "type": "Feature",
@@ -988,7 +1022,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Antonio Gabrielli, der im Auftrag der Stadt Wien die I. Wiener Hochquellenwasserleitung errichtete, verzichtete auf einen Teil des ihm zustehenden Geldes zu Gunsten eines repräsentativen Brunnens unter der Bedingung, dass dieser anlässlich der Eröffnung der Wasserleitung in Betrieb genommen werden sollte. Bei der Suche nach einem geeigneten und dem Anlass entsprechenden Standort wurde auch der neue Rathauspark auf seine Tauglichkeit überprüft.[1]",
+      "LINK": "https://de.wikipedia.org/wiki/Brunnen_im_Rathauspark"
     }
   }, {
     "type": "Feature",
@@ -1011,7 +1047,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-24:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Am zwischen Ungargasse und Landstraßer Hauptstraße nahe der Rochuskirche gelegenen Platz, der im Jahr vor der Enthüllung des Brunnens benannt wurde und zuvor Gemeindeplatz hieß, befinden sich auf Nr. 3 das Magistratische Bezirksamt für den 3. Bezirk und die Bezirksvorstehung. Gestiftet wurde der Brunnen – ebenso wie der Siebenbrunnen im 5. Bezirk, Margareten – aus Anlass des 60. Geburtstags von Bürgermeister Karl Lueger vom Bezirk. Der Name des Brunnens erinnert an den 1610 heiliggesprochene Grafen Karl Borromäus, Kardinal und Erzbischof von Mailand und Namenspatron von Karl Lueger.",
+      "LINK": "https://de.wikipedia.org/wiki/Karl-Borrom%C3%A4us-Brunnen"
     }
   }, {
     "type": "Feature",
@@ -1034,7 +1072,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-24:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Anton Gabrielli, Bauunternehmer der Wasserleitung, spendete 200.000 Kronen zur Errichtung des im Auftrag der Stadt Wien vom Bauunternehmer Gustav Bruck ausgeführten Brunnens.[2] 1886/87 wurden umfängliche Überlegungen zur Regulierung des Schwarzenbergplatzes angestellt und, damit verbunden, zur Neufassung des Hochstrahlbrunnens.[3] Die Entwürfe der bedeutenden Bildhauer Viktor Tilgner (1844–1896)[4] und Rudolf Weyr (1847–1914)[5] wurden ab Ende Jänner 1887 im Wiener Künstlerhaus der Öffentlichkeit präsentiert,[6] eine Entscheidung zu deren Gunsten fiel jedoch nicht. Später wurde der Brunnen, im Stil einer Fontaine lumineuse des Architekten Oskar Marmorek (1863–1909), mit einem Kostenaufwand von 285.000 Kronen zu einem Leuchtbrunnen umgestaltet, der am 23. Juni 1906 eröffnet wurde. Nachts leuchtet er in den Farben Rot, Rosa, Gelb, Violett, Blau und Grün.",
+      "LINK": "https://de.wikipedia.org/wiki/Hochstrahlbrunnen"
     }
   }, {
     "type": "Feature",
@@ -1057,7 +1097,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der in der Graf Salm'schen Eisenfabrik in Blansko bei Brünn gegossene Brunnen entstand auf Initiative des Grundrichters Carl Georg Gaber. Der Brunnen wurde im Herbst 1833 in Betrieb genommen und im März 1834 nach Montage der Isisstatue von Sigismund Schultes, Abt des Schottenstiftes, das bis 1848 Grundherr war, im Beisein von Kaiser Franz I. geweiht. Die Statue der Göttin Isis wurde einer Marmorstatue der Antikensammlung der Sammlungen des Kaiserhauses nachgebildet.",
+      "LINK": "https://de.wikipedia.org/wiki/Isisbrunnen"
     }
   }, {
     "type": "Feature",
@@ -1080,7 +1122,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Marokkanerbrunnen wurde 1998[1] als persönliches Geschenk des Königs Hassan II. von Marokko als Zeichen und zur weiteren Vertiefung der langjährigen Freundschaft zwischen Österreich und Marokko den Österreichern geschenkt.[2] Er ist ein Werk der Handwerksmeister MDAGHRI ALOUI Moulay Hafid für die „Zellige und Handwerksarbeiten“ und BELLAMINE Kamal für das Ziegelvordach und die Holzskulpturen.[3]",
+      "LINK": "https://de.wikipedia.org/wiki/Marokkanerbrunnen"
     }
   }, {
     "type": "Feature",
@@ -1103,7 +1147,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -1126,7 +1172,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -1149,7 +1197,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -1172,7 +1222,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Loiblbrunnen (16, Loiblweg). Der nach einem Entwurf von Rudolf Friedl zur Erinnerung an den Mitbegründer des Ottakringer Verschönerungsvereins Johann Loibl gestaltete und 1964 von Heribert Rath erneuerte beziehungsweise veränderte Brunnen besteht aus zwei übereinanderliegenden mosaikverkleideten, schotenähnlichen Becken mit Wasserausläufen.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Loiblbrunnen"
     }
   }, {
     "type": "Feature",
@@ -1195,7 +1247,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": null,
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -1218,30 +1272,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
-    }
-  }, {
-    "type": "Feature",
-    "id": "MONUMENTALBRUOGD.2179495",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [16.355811532050208, 48.21067808512801]
-    },
-    "geometry_name": "SHAPE",
-    "properties": {
-      "OBJECTID": 2179495,
-      "BASIS_NAME": "Unknown",
-      "BASIS_TYP": "Monumentalbrunnen",
-      "BETRIEB": "Wiener Wasser",
-      "VERWALTUNG": null,
-      "BAUJAHR": null,
-      "DENKMAL": null,
-      "KUENSTLER": null,
-      "BETRIEB_VON": null,
-      "BETRIEB_BIS": null,
-      "AKTIV": null,
-      "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Die Wiener Wasserwelt ist eine aus sieben verschiedenen Brunnenanlagen bestehende Wasserkunst-Installation im 15. Wiener Gemeindebezirk Rudolfsheim-Fünfhaus. Sie erstreckt sich vom Meiselmarkt entlang der Meiselstraße bis zum Kardinal-Rauscher-Platz.",
+      "LINK": "https://de.wikipedia.org/wiki/Wiener_Wasserwelt"
     }
   }, {
     "type": "Feature",
@@ -1264,7 +1297,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Hadikpark (14; Anlagen an der Hadikgasse längs des Wienflusses zwischen Schönbrunner Schlossbrücke und Kennedybrücke); in der östlichen Hälfte befindet sich ein Jungbrunnen von Rudolf Panholzer (1913), in der westlichen das Franz-Xaver-Freiherr-von-Mayr-Denkmal (Mayrdenkmal).",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Hadikpark"
     }
   }, {
     "type": "Feature",
@@ -1287,7 +1322,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-21:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Located in Prater",
+      "LINK": "https://de.wikipedia.org/wiki/Wurstelprater"
     }
   }, {
     "type": "Feature",
@@ -1310,7 +1347,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "In einem oktogonalen Brunnenbecken befindet sich zentrisch ein klassizistischer Vierkantsockel. In der Südostachse sind zwei metallene Relieftafeln mit den Szenen Flucht aus Ägypten und Engel erscheint Josef im Traum angebracht und in der Ostwestachse jeweils ein wasserspeiender, metallener Löwenkopf. Auf dem Sockel befindet sich eine Figur aus Blei, die den heiligen Josef in antiker Gewandung und mit Stab darstellt, wie er sich zu einem Knaben herabneigt, der eine Schriftrolle, den Stammbaum Josefs, hält.",
+      "LINK": "https://de.wikipedia.org/wiki/Josefsbrunnen_(Graben)"
     }
   }, {
     "type": "Feature",
@@ -1333,7 +1372,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "07:00-01:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Donauweibchenbrunnen besteht aus einer Steinsäule aus Karstkalkstein, vier angesetzten runden Brunnenschalen und Kopfmasken als Wasserspeier. Auf der Spitze der Steinsäule steht die Figur des Donauweibchens, einer Sagenfigur, die angeblich notleidenden Fischern half oder sie vor Donauhochwässern warnte. Zu ihren Füßen befindet sich ein kleiner Schild mit dem Stadtwappen von Wien.",
+      "LINK": "https://de.wikipedia.org/wiki/Donauweibchenbrunnen"
     }
   }, {
     "type": "Feature",
@@ -1356,30 +1397,9 @@
       "BETRIEB_BIS": null,
       "AKTIV": "08:00-24:00",
       "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
-    }
-  }, {
-    "type": "Feature",
-    "id": "MONUMENTALBRUOGD.2179501",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [16.319257220503722, 48.18726563690475]
-    },
-    "geometry_name": "SHAPE",
-    "properties": {
-      "OBJECTID": 2179501,
-      "BASIS_NAME": "Jungbrunnen",
-      "BASIS_TYP": "Monumentalbrunnen",
-      "BETRIEB": "Wiener Wasser",
-      "VERWALTUNG": null,
-      "BAUJAHR": null,
-      "DENKMAL": null,
-      "KUENSTLER": null,
-      "BETRIEB_VON": null,
-      "BETRIEB_BIS": null,
-      "AKTIV": null,
-      "SE_ANNO_CAD_DATA": null,
-      "BETREIBER": "Wiener Wasser"
+      "BETREIBER": "Wiener Wasser",
+      "DESCRIPTION": "Der Brunnen wurde von Carl Wollek zur Erinnerung an Sebastian Kneipp gestaltet und (laut Kommunal-Kalender) am 29. September 1912 enthüllt. Nach Behebung der während des Zweiten Weltkriegs entstandenen Schäden durch die Vereinigten Metallwerke wurde der Kneippbrunnen am 6. Februar 1951 wieder an seinem ursprünglichen Standort aufgestellt.",
+      "LINK": "https://www.geschichtewiki.wien.gv.at/Kneippbrunnen"
     }
   }],
   "crs": {
