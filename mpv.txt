@@ -37,3 +37,10 @@ https://developers.google.com/maps/documentation/javascript/infowindows
 //Markers styling
 https://developers.google.com/maps/documentation/javascript/reference/marker#MarkerLabel.fontFamily
 https://developers.google.com/maps/documentation/javascript/reference#MarkerOptions
+
+
+//Richard Kralik
+http://staralenora.euweb.cz/kralik.htm
+
+//Realtime geolocation
+https://stackoverflow.com/questions/3305225/real-time-gps-tracker-on-just-html-js-and-google-maps-to-be-run-on-a-handphone
