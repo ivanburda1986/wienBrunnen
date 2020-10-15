@@ -43,8 +43,6 @@ function initMap() {
      brunnenMarkers.push(new google.maps.Marker({position: brunne.coordinates, label: {text: brunne.name, fontWeight: "500"}, map: map}));
      infoWindows.push(new google.maps.InfoWindow({content: `${brunne.description} ${brunne.link}`}));
     });
-    console.log(infoWindows);
-    console.log(brunnenMarkers);
     //Attach info windows
     attachInfoWindows(brunnenMarkers, infoWindows);
     //Once the markers have been added request clustering them
