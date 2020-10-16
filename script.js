@@ -77,7 +77,32 @@ function initMap() {
         "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
   }
+  myPosition(map)
+}
 
+//Geolocation marker
+function myPosition(map){
+  let newIcon = 'myPositionDot.png';
+  navigator.geolocation.getCurrentPosition((position) => {
+    
+  });
+
+  const options = {
+    enableHighAccuracy: true, 
+    maximumAge: 30000, 
+    timeout: 27000
+  };
+
+  function success(position) {
+    console.log(position.coords.latitude, position.coords.longitude);
+    let positionMarker = new google.maps.Marker({position: {lat: position.coords.latitude, lng: position.coords.longitude}, icon: newIcon,  map: map});
+  }
+  
+  function error() {
+    alert('Sorry, no position available.');
+  }
+
+  const watchID = navigator.geolocation.watchPosition(success, error, options);
 }
 
 
