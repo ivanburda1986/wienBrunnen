@@ -11,6 +11,9 @@ function initMap() {
     center: locations.vienna,
   });
 
+  //Realtime geolocation
+  
+
   //IIFE: Load external JSON data about the brunnen
   (function getBrunnenData(){
     let brunnen = [];
@@ -76,3 +79,30 @@ function initMap() {
   }
 
 }
+
+
+
+// let positionMarker = null;
+//   function updateLocation(){
+//     navigator.geolocation.getCurrentPosition(function(position){
+//       let newPoint = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+//       if(positionMarker){
+//         //Marker already created - then move it
+//         positionMarker.setPosition(newPoint);
+//       }
+//       else{
+//         //Market does not exist - then create it
+//         positionMarker = new google.maps.Marker({
+//           position: newPoint,
+//           map: map
+//         });
+//       }
+
+//       //Center the map on the new position
+//       map.setCenter(newPoint);
+//     });
+
+//     //Call the location function every 5 seconds
+//     setTimeout(updateLocation, 5000);
+//   }
+//   updateLocation();
