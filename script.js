@@ -83,10 +83,9 @@ function initMap() {
 //Geolocation marker
 function myPosition(map){
   let newIcon = 'myPositionDot.png';
-  navigator.geolocation.getCurrentPosition((position) => {
-    
-  });
-
+  let positionMarker = new google.maps.Marker({position: {lat: 48.210033, lng: 16.363449}, icon: newIcon,  map: map});
+  console.log(positionMarker.internalPosition());
+  
   const options = {
     enableHighAccuracy: true, 
     maximumAge: 30000, 
@@ -95,7 +94,7 @@ function myPosition(map){
 
   function success(position) {
     console.log(position.coords.latitude, position.coords.longitude);
-    let positionMarker = new google.maps.Marker({position: {lat: position.coords.latitude, lng: position.coords.longitude}, icon: newIcon,  map: map});
+    
     
   }
   
@@ -103,7 +102,10 @@ function myPosition(map){
     alert('Sorry, no position available.');
   }
 
-  const watchID = navigator.geolocation.watchPosition(success, error, options);
+  console.log(positionMarker)
+  //setTimeout(myPosition, 2000);
+  
+  //const watchID = navigator.geolocation.watchPosition(success, error, options);
 }
 
 

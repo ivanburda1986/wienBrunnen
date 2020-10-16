@@ -44,3 +44,6 @@ http://staralenora.euweb.cz/kralik.htm
 
 //Realtime geolocation
 https://stackoverflow.com/questions/3305225/real-time-gps-tracker-on-just-html-js-and-google-maps-to-be-run-on-a-handphone
+
+
+https://medium.com/risan/track-users-location-and-display-it-on-google-maps-41d1f850786e
