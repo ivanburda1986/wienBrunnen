@@ -104,7 +104,7 @@ function myPosition(map){
 
   const watchID = navigator.geolocation.watchPosition(success, error, options);
 
-  setTimeout(myPosition, 3000);
+  setTimeout(myPosition, 500);
 }
 
 
