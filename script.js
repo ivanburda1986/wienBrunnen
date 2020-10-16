@@ -84,7 +84,7 @@ function initMap() {
 function myPosition(map){
   let newIcon = 'myPositionDot.png';
   navigator.geolocation.getCurrentPosition((position) => {
-    
+    let positionMarker = new google.maps.Marker({position: {lat: position.coords.latitude, lng: position.coords.longitude}, icon: newIcon,  map: map});
   });
 
   const options = {
@@ -95,7 +95,7 @@ function myPosition(map){
 
   function success(position) {
     console.log(position.coords.latitude, position.coords.longitude);
-    let positionMarker = new google.maps.Marker({position: {lat: position.coords.latitude, lng: position.coords.longitude}, icon: newIcon,  map: map});
+    
   }
   
   function error() {
@@ -103,6 +103,8 @@ function myPosition(map){
   }
 
   const watchID = navigator.geolocation.watchPosition(success, error, options);
+
+  setTimeout(myPosition, 3000);
 }
 
 
