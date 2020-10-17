@@ -120,7 +120,7 @@ function initMap() {
   trackLocation({
     onSuccess: ({coords: {latitude: lat, longitude: lng}}) => {
       positionMarker.setPosition({lat, lng});
-      map.panTo({lat, lng});
+      //map.panTo({lat, lng});
     },
     onError: err =>
       alert(`Error: ${getPositionErrorMessage(err.code) || err.message}`)
