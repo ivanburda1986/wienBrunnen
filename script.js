@@ -74,7 +74,15 @@
     return new google.maps.Marker({position, icon, map});
   };
 
-  //Track location
+//Get current position
+const getCurrentPosition = ({onSuccess, onError = ()=>{}}) =>{
+  if('geolocation' in navigator === false){
+    return onError(new Error ('Geolocation is not supported by your browser.'));
+  }
+  return navigator.geolocation.getCurrentPosition(onSuccess, onError);
+};
+
+//Track location
   const trackLocation = ({onSuccess, onError = () => {}}) =>{
     if('geolocation' in navigator === false){
       return onError(new Error('Geolocation is not supported in your browser.'));
@@ -98,21 +106,41 @@
     }
   }
 
+
+//Start everything  
 function initMap() {
-  //Load the map and center it to Vienna
-  const initialPosition = {lat: 48.210033, lng: 16.363449};
-  const map = createMap(initialPosition);
 
-  //Create a marker for the geolocation
-  let newIcon = 'myPositionDot.png';
-  let positionMarker = createGeoMarker({position:initialPosition, icon:newIcon, map:map});
+  //Set variable so that they will be accessible to other function in the initMap
+  let initialPosition;
+  let map;
+  let positionMarker;
 
-  getBrunnenData(map);
+  //Gets current location of the user
+  getCurrentPosition({
+    onSuccess: ({coords: {latitude:lat, longitude: lng}}) =>{
+      //Sets the initial position to the current location of the user
+      initialPosition = {lat, lng};
 
+      //Requests creating a map center at to the position of the user
+      map = createMap(initialPosition);
+      
+      //Create a marker for the user's position
+      let geoMarkerIcon = 'myPositionDot.png';
+      positionMarker = createGeoMarker({position:initialPosition, icon:geoMarkerIcon, map:map});
+      
+      //Request data about the brunnen - this can be done only once the map has been created
+      getBrunnenData(map);
+    },
+    onError: err =>
+      alert(`Error: ${getPositionErrorMessage(err.code) || err.message}`)
+  });
+
+
+  //Do real-time tracking of user's location
   trackLocation({
     onSuccess: ({coords: {latitude: lat, longitude: lng}}) => {
       positionMarker.setPosition({lat, lng});
-      //map.panTo({lat, lng});
+      //map.panTo({lat, lng}); //Continuously center the map to the user's postion
     },
     onError: err =>
       alert(`Error: ${getPositionErrorMessage(err.code) || err.message}`)
