@@ -1,55 +1,5 @@
-function initMap() {
-  //Variables
-  
-  const locations = {
-    vienna: {lat: 48.210033, lng: 16.363449},
-  }
-
-  //Load the map and center it to Vienna
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 13,
-    center: locations.vienna,
-  });
-
-  //Realtime geolocation
-  let newIcon = 'myPositionDot.png';
-  let positionMarker = new google.maps.Marker({position: {lat: 48.210033, lng: 16.363449}, icon: newIcon,  map: map});
-
-  const getPositionErrorMessage = code => {
-    switch(code){
-      case 1:
-        return 'Permission denied.';
-      case 2:
-        return 'Position unavailable';
-      case 3:
-        return 'Timeout reached';
-    }
-  }
-
-  if('geolocation' in navigator){
-    navigator.geolocation.getCurrentPosition( //getCurrentPosition(success, error, [options])
-      position=>{ //success
-        console.log(`Lat: ${position.coords.latitude} Lng: ${position.coords.longitude}`);
-        //Set marker's position
-        positionMarker.setPosition({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        });
-        //Center the map to the user's position
-        map.panTo({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        });
-      },
-      err => alert(`Error ${err.code}: ${getPositionErrorMessage(err.code)}`) //error
-    );
-  } else{
-    alert('Geolocation is not supported by your browser.');
-  }
-  
-
-  //IIFE: Load external JSON data about the brunnen
-  (function getBrunnenData(){
+// Load external JSON data about the brunnen
+  function getBrunnenData(map){
     let brunnen = [];
     fetch("brunnen-data.json")
     .then(response => response.json())
@@ -67,13 +17,13 @@ function initMap() {
       })
 
       //Only once the data is loaded request adding the markers
-      addMarkers(brunnen);
+      addMarkers(brunnen,map);
       
     })
-  })();
+  };
 
   //Add a location marker onto the map
-  function addMarkers(brunnen){
+  function addMarkers(brunnen,map){
     let brunnenMarkers = [];
     let infoWindows = [];
     brunnen.forEach(brunne =>{
@@ -81,13 +31,21 @@ function initMap() {
      infoWindows.push(new google.maps.InfoWindow({content: `${brunne.description} ${brunne.link}`}));
     });
     //Attach info windows
-    attachInfoWindows(brunnenMarkers, infoWindows);
+    attachInfoWindows(brunnenMarkers, infoWindows, map);
     //Once the markers have been added request clustering them
-    clusterMarkers(brunnenMarkers);
+    clusterMarkers(brunnenMarkers, map);
+  }
+
+  //Cluster the markers
+  function clusterMarkers(brunnenMarkers, map){
+    new MarkerClusterer(map, brunnenMarkers, {
+      imagePath:
+        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
   }
 
   //Attach info windows to markers
-  function attachInfoWindows(brunnenMarkers, infoWindows){
+  function attachInfoWindows(brunnenMarkers, infoWindows, map){
     for(let i = 0; i<brunnenMarkers.length; i++){
       brunnenMarkers[i].addListener('click', ()=>{
         closeInfoWindows(infoWindows);
@@ -103,18 +61,69 @@ function initMap() {
     })
   }
 
-  //Cluster the markers
-  function clusterMarkers(brunnenMarkers){
-    new MarkerClusterer(map, brunnenMarkers, {
-      imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  //Create a map
+  const createMap = ({lat, lng}) =>{
+    return new google.maps.Map(document.getElementById('map'),{
+      center: {lat, lng},
+      zoom: 13
+    });
+  };
+
+  //Create marker
+  const createMarker = ({position, icon, map}) => {
+    return new google.maps.Marker({position, icon, map});
+  };
+
+  //Get current position
+  const getCurrentPosition = ({onSuccess, onError = ()=>{}}) =>{
+    if('geolocation' in navigator === false){
+      return onError(new Error('Geolocation is not supported in your browser.'));
+    }
+    return navigator.geolocation.getCurrentPosition(onSuccess, onError);
+  }
+
+  //Track location
+  const trackLocation = ({onSuccess, onError = () => {}}) =>{
+    if('geolocation' in navigator === false){
+      return onError(new Error('Geolocation is not supported in your browser.'));
+    }
+    return navigator.geolocation.watchPosition(onSuccess, onError, {
+      enableHighAccuracy: true,
+      timeout: 5000,
+      maximumAge: 0
     });
   }
 
-}
+  //Get and evaluate position-retrieval related error messages
+  const getPositionErrorMessage = code => {
+    switch(code){
+      case 1:
+        return 'Permission denied.';
+      case 2:
+        return 'Position unavailable';
+      case 3:
+        return 'Timeout reached';
+    }
+  }
 
-//Geolocation marker
-function myPosition(map){
+function initMap() {
+  //Load the map and center it to Vienna
+  const initialPosition = {lat: 48.210033, lng: 16.363449};
+  const map = createMap(initialPosition);
 
- 
+  //Create a marker for the geolocation
+  let newIcon = 'myPositionDot.png';
+  let positionMarker = createMarker({position:initialPosition, icon:newIcon, map:map});
+
+  getBrunnenData(map);
+
+  trackLocation({
+    onSuccess: ({coords: {latitude: lat, longitude: lng}}) => {
+      positionMarker.setPosition({lat, lng});
+      map.panTo({lat, lng});
+    },
+    onError: err =>
+      alert(`Error: ${getPositionErrorMessage(err.code) || err.message}`)
+  });
+
 }
