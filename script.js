@@ -12,6 +12,40 @@ function initMap() {
   });
 
   //Realtime geolocation
+  let newIcon = 'myPositionDot.png';
+  let positionMarker = new google.maps.Marker({position: {lat: 48.210033, lng: 16.363449}, icon: newIcon,  map: map});
+
+  const getPositionErrorMessage = code => {
+    switch(code){
+      case 1:
+        return 'Permission denied.';
+      case 2:
+        return 'Position unavailable';
+      case 3:
+        return 'Timeout reached';
+    }
+  }
+
+  if('geolocation' in navigator){
+    navigator.geolocation.getCurrentPosition( //getCurrentPosition(success, error, [options])
+      position=>{ //success
+        console.log(`Lat: ${position.coords.latitude} Lng: ${position.coords.longitude}`);
+        //Set marker's position
+        positionMarker.setPosition({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+        //Center the map to the user's position
+        map.panTo({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+      },
+      err => alert(`Error ${err.code}: ${getPositionErrorMessage(err.code)}`) //error
+    );
+  } else{
+    alert('Geolocation is not supported by your browser.');
+  }
   
 
   //IIFE: Load external JSON data about the brunnen
@@ -69,7 +103,6 @@ function initMap() {
     })
   }
 
-
   //Cluster the markers
   function clusterMarkers(brunnenMarkers){
     new MarkerClusterer(map, brunnenMarkers, {
@@ -77,60 +110,11 @@ function initMap() {
         "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
   }
-  myPosition(map)
+
 }
 
 //Geolocation marker
 function myPosition(map){
-  let newIcon = 'myPositionDot.png';
-  let positionMarker = new google.maps.Marker({position: {lat: 48.210033, lng: 16.363449}, icon: newIcon,  map: map});
-  console.log(positionMarker.internalPosition());
-  
-  const options = {
-    enableHighAccuracy: true, 
-    maximumAge: 30000, 
-    timeout: 27000
-  };
 
-  function success(position) {
-    console.log(position.coords.latitude, position.coords.longitude);
-    
-    
-  }
-  
-  function error() {
-    alert('Sorry, no position available.');
-  }
-
-  console.log(positionMarker)
-  //setTimeout(myPosition, 2000);
-  
-  //const watchID = navigator.geolocation.watchPosition(success, error, options);
+ 
 }
-
-
-
-// let positionMarker = null;
-//   function updateLocation(){
-//     navigator.geolocation.getCurrentPosition(function(position){
-//       let newPoint = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-//       if(positionMarker){
-//         //Marker already created - then move it
-//         positionMarker.setPosition(newPoint);
-//       }
-//       else{
-//         //Market does not exist - then create it
-//         positionMarker = new google.maps.Marker({
-//           position: newPoint,
-//           map: map
-//         });
-//       }
-
-//       //Center the map on the new position
-//       map.setCenter(newPoint);
-//     });
-
-//     //Call the location function every 5 seconds
-//     setTimeout(updateLocation, 5000);
-//   }
-//   updateLocation();
