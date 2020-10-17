@@ -22,13 +22,13 @@
     })
   };
 
-  //Add a location marker onto the map
+//Add a location marker onto the map
   function addMarkers(brunnen,map){
     let brunnenMarkers = [];
     let infoWindows = [];
     brunnen.forEach(brunne =>{
-     brunnenMarkers.push(new google.maps.Marker({position: brunne.coordinates, label: {text: brunne.name, fontWeight: "500"}, map: map}));
-     infoWindows.push(new google.maps.InfoWindow({content: `${brunne.description} ${brunne.link}`}));
+      brunnenMarkers.push(new google.maps.Marker({position: brunne.coordinates, label: {text: brunne.name, fontWeight: "500"}, map: map}));
+      infoWindows.push(new google.maps.InfoWindow({content: `${brunne.description} ${brunne.link}`}));
     });
     //Attach info windows
     attachInfoWindows(brunnenMarkers, infoWindows, map);
@@ -36,7 +36,7 @@
     clusterMarkers(brunnenMarkers, map);
   }
 
-  //Cluster the markers
+//Cluster the markers
   function clusterMarkers(brunnenMarkers, map){
     new MarkerClusterer(map, brunnenMarkers, {
       imagePath:
@@ -44,7 +44,7 @@
     });
   }
 
-  //Attach info windows to markers
+//Attach info windows to markers
   function attachInfoWindows(brunnenMarkers, infoWindows, map){
     for(let i = 0; i<brunnenMarkers.length; i++){
       brunnenMarkers[i].addListener('click', ()=>{
@@ -54,14 +54,14 @@
     }
   }
 
-  //Close all open info windows when a new one gets clicked
+//Close all open info windows when a new one gets clicked
   function closeInfoWindows(infoWindows){
     infoWindows.forEach(window =>{
       window.close();
     })
   }
 
-  //Create a map
+//Create a map
   const createMap = ({lat, lng}) =>{
     return new google.maps.Map(document.getElementById('map'),{
       center: {lat, lng},
@@ -69,18 +69,10 @@
     });
   };
 
-  //Create marker
-  const createMarker = ({position, icon, map}) => {
+//Create a geolocation marker
+  const createGeoMarker = ({position, icon, map}) => {
     return new google.maps.Marker({position, icon, map});
   };
-
-  //Get current position
-  const getCurrentPosition = ({onSuccess, onError = ()=>{}}) =>{
-    if('geolocation' in navigator === false){
-      return onError(new Error('Geolocation is not supported in your browser.'));
-    }
-    return navigator.geolocation.getCurrentPosition(onSuccess, onError);
-  }
 
   //Track location
   const trackLocation = ({onSuccess, onError = () => {}}) =>{
@@ -113,7 +105,7 @@ function initMap() {
 
   //Create a marker for the geolocation
   let newIcon = 'myPositionDot.png';
-  let positionMarker = createMarker({position:initialPosition, icon:newIcon, map:map});
+  let positionMarker = createGeoMarker({position:initialPosition, icon:newIcon, map:map});
 
   getBrunnenData(map);
 
